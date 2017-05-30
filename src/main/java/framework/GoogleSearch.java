@@ -16,7 +16,7 @@ public class GoogleSearch
     {
         this.driver = driver;
 
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 40);
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("resultStats")));
 
