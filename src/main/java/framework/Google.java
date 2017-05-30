@@ -20,7 +20,7 @@ public class Google
 
         driver.get(baseUrl + "/");
 
-        if (!driver.getTitle().equals("Google Test"))
+        if (!driver.getTitle().equals("Google"))
             throw new WrongWebPage("Incorrect page for Google !");
     }
 
