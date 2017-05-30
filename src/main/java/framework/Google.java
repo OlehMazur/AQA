@@ -32,6 +32,7 @@ public class Google
         driver.findElement(By.id("lst-ib")).sendKeys("Mastering Selenium Testing Tools");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("btnG")));
         driver.findElement(By.name("btnG")).click();
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("resultStats")));
         return new GoogleSearch(driver);
     }
 }

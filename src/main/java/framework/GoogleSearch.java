@@ -16,9 +16,9 @@ public class GoogleSearch
     {
         this.driver = driver;
 
-        WebDriverWait wait = new WebDriverWait(driver, 40);
+        //WebDriverWait wait = new WebDriverWait(driver, 40);
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("resultStats")));
+        //wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("resultStats")));
 
         if (!driver.getTitle().equals("Mastering Selenium Testing Tools - Пошук Google"))
             throw new WrongWebPage("Incorrect page for Search");
