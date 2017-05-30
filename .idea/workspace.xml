@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="340d173f-2d51-4a1b-adca-8f8e106c2b94" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/framework/GoogleSearch.java" afterPath="$PROJECT_DIR$/src/main/java/framework/GoogleSearch.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/SearchGoogleTest.java" afterPath="$PROJECT_DIR$/src/test/java/SearchGoogleTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,8 +68,8 @@
       <file leaf-file-name="SearchGoogleTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/SearchGoogleTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+            <state relative-caret-position="264">
+              <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -734,8 +732,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SearchGoogleTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="30" column="44" lean-forward="false" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+        <state relative-caret-position="264">
+          <caret line="32" column="10" lean-forward="false" selection-start-line="32" selection-start-column="10" selection-end-line="32" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
