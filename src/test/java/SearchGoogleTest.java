@@ -28,7 +28,9 @@ public class SearchGoogleTest
     {
         startPage = new Google(driver);
         search = startPage.navigateToGoogleSearch();
-        search.getNumberOfResults();
+        System.out.println(search.getTitle());
+
+        //search.getNumberOfResults();
 
 
     }

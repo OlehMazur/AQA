@@ -30,4 +30,10 @@ public class GoogleSearch
         System.out.println(result);
         return result;
     }
+
+    public String getTitle()
+    {
+        return driver.getTitle();
+    }
+
 }
