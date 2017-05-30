@@ -27,7 +27,7 @@ public class Google
     //navigate to Search Page
     public GoogleSearch navigateToGoogleSearch()
     {
-        WebDriverWait wait = new WebDriverWait(driver, 20);
+        WebDriverWait wait = new WebDriverWait(driver, 40);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("lst-ib")));
         driver.findElement(By.id("lst-ib")).sendKeys("Mastering Selenium Testing Tools");
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("btnG")));

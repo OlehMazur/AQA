@@ -1,11 +1,12 @@
 -------------------------------------------------------------------------------
 Test set: SearchGoogleTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 37.185 sec <<< FAILURE!
-testSearchGoogleTest(SearchGoogleTest)  Time elapsed: 36.977 sec  <<< ERROR!
-framework.WrongWebPage: Incorrect page for Google !
-	at framework.Google.<init>(Google.java:24)
-	at SearchGoogleTest.testSearchGoogleTest(SearchGoogleTest.java:29)
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 38.939 sec <<< FAILURE!
+testSearchGoogleTest(SearchGoogleTest)  Time elapsed: 38.692 sec  <<< ERROR!
+framework.WrongWebPage: Incorrect page for Search
+	at framework.GoogleSearch.<init>(GoogleSearch.java:24)
+	at framework.Google.navigateToGoogleSearch(Google.java:35)
+	at SearchGoogleTest.testSearchGoogleTest(SearchGoogleTest.java:30)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
