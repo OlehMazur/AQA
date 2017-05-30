@@ -16,7 +16,7 @@ public class SearchGoogleTest
     GoogleSearch search;
 
     @Before
-    public void setUp()
+    public void setUp() throws Exception
     {
         System.setProperty("webdriver.chrome.driver", "C:\\SeleniumLib\\chromedriver.exe");
         driver = new ChromeDriver();
@@ -34,7 +34,7 @@ public class SearchGoogleTest
     }
 
     @After
-    public void tearDown()
+    public void tearDown() throws Exception
     {
         driver.quit();
     }
